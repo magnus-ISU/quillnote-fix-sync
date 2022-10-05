@@ -1,5 +1,20 @@
-# Quillnote
+# Quillnote (with fixed syncing)
 
+Quillnote is a beautiful application which had broken nextcloud syncing.
+
+jsixface fixed this (a tiny change, it was mostly working just never tested much or something?), but the PR has been ignored for a while and the upstream repo hasn't been updated in a while.
+
+I decided to compile the fixed version and, now that I've seen it works, upload it.
+
+# Building
+
+To build, I had to open in android studio. Trying to use gradle directly didn't seem to work.
+
+# Don't be an idiot
+
+I deleted quillnote to install the new version, and I didn't take a backup of all my notes. I lost most of them, all the changes I made since I had set up the nextcloud sync in the first place (if syncing worked in the first place, I would have lost nothing). Anyway, quillnote makes it easy to export a backup of all your notes, so learn from my stupidity and don't make the same mistake when installing this one.
+
+# Quillnote
 
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="256"/><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="256"/><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="256"/>
 
